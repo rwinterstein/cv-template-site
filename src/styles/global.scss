@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&family=Work+Sans:wght@400;600;700&display=swap");
+
+*:focus {
+  outline: none;
+}
+
+// Column Grid - mobile
+[class*="col-"] {
+  width: 100%;
+}
+
+// Column Grid - tablet/desktop
+@media (min-width: 1024px) {
+  .col-1 {
+    width: 5.583333333333333%;
+  }
+  .col-2 {
+    width: 14.16666666666667%;
+  }
+  .col-3 {
+    width: 22.75%;
+  }
+  .col-4 {
+    width: 31.33333333333333%;
+  }
+  .col-5 {
+    width: 39.91666666666667%;
+  }
+  .col-6 {
+    width: 48.5%;
+  }
+  .col-7 {
+    width: 57.08333333333333%;
+  }
+  .col-8 {
+    width: 65.66666666666666%;
+  }
+  .col-9 {
+    width: 74.25%;
+  }
+  .col-10 {
+    width: 82.83333333333333%;
+  }
+  .col-11 {
+    width: 91.41666666666666%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.container {
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+
+  @media (min-width: 768px) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  @media (min-width: 1024px) {
+    padding-right: 12%;
+    padding-left: 12%;
+  }
+
+  @media (min-width: 1280px) {
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+  }
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--black);
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: var(--black);
+}
+
+h4 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--gray);
+}
+
+h5 {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--black);
+}
+
+p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+}
+
+li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--black);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+}
